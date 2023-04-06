@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {background-image: url(background\ img.jpeg);
+    position: absolute;
+    left: 1000px;    
+}
+label{
+   color: white;
+
+}
+h1{
+    color: white;
+    text-align: center;
+}     
+
+    </style>
+</head>
+
+
+<body>
+    <h1>Contact Us</h1>
+    <form>
+
+        <fieldset>
+            <label>Name</label><br>
+            <input type="text" id="Name" name="Name" placeholder="First and Last name">
+            <button type="button">save</button>
+            <button type="reset">clear</button><br><br>
+          
+          <label for="gender">Gender:</label>
+          <select name="gender" id="gender">
+              <option value="Male">M</option>
+              <option value="Female">F</option>
+          </select>
+          <br><br>
+          
+          <label for="age">Age</label><br>
+          <input id="age" type="number" name="number" min="0" max="100"><br>
+          <button type="button">save</button>
+          <button type="reset">clear</button><br><br>
+          
+            <label>Email</label><br>
+            <input type="email">
+            <button type="button">save</button>
+            <button type="reset">clear</button><br><br>
+          
+            <label for="tel">Phone number</label><br>
+            <input id="tel" type="tel">
+            <button type="button">save</button>
+            <button type="reset">clear</button><br><br>
+          </fieldset>
+            
+            <fieldset>
+            
+          
+            <label>Availabel Date</label><br>
+            <input type="date">
+            <button type="button">save</button>
+            <button type="reset">clear</button><br><br>
+            </fieldset>
+          
+            <fieldset> 
+            <label>Availabe Time</label><br>
+            <input type="time">
+            <button type="button">save</button>
+            <button type="reset">clear</button><br><br>
+          </fieldset>
+     
+            
+            <fieldset style="color: white;">
+              <legend>Message</legend>
+              <textarea name="yourMessage"  cols="40" rows="10" placeholder="Write Your Message Here"></textarea>
+          
+          <br>
+          
+              <button type="reset">Clear Message</button>
+              <button type="reset">Save</button><br><br>
+          
+          
+              <input type="submit"><br><br>
+          </fieldset>
+
+</form>
+</body>
+</html>
+
+
